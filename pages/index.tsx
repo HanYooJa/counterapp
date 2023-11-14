@@ -10,7 +10,7 @@ import {
   import { useState } from 'react'
   const Home: NextPage = () => {
    const myAddress = useAddress()
-   const contractAddress = '0x79c3F32d1B23CC1645F8bE357DEea1b519340513'
+   const contractAddress = '0xDFa068896257Fd2b55EC447586D1b22fef5A27F0'
    const { contract } = useContract(contractAddress)
    const [counter, setCounter] = useState<string | undefined>()
    async function getCounter() {
